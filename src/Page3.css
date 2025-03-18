@@ -1,0 +1,283 @@
+.about {
+  width: 97%;
+  height: fit-content;
+  gap: 0px;
+  border-radius: 24px;
+  background-color: rgba(255, 241, 246, 1);
+  border: rgba(255, 241, 246, 1);
+}
+.paraabout {
+  padding-top: 60px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  padding-left: 50px;
+}
+.points {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border: 2px;
+  margin-top: 90px;
+  margin-left: 50px;
+}
+.pointsss {
+  width: 24px;
+  height: 24px;
+  gap: 0px;
+  border: 2px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.insideparaa {
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+  margin-top: 10px;
+}
+.boxofabout {
+  display: flex;
+  margin-top: 40px;
+}
+.boxofaboutt {
+  display: flex;
+}
+.insidepara {
+  padding-top: 75px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+}
+.img {
+  width: 286px;
+  height: 486px;
+  gap: 0px;
+  margin-top: 20px;
+}
+.contactustoday {
+  width: 1097px;
+  height: 345px;
+  gap: 0px;
+  border-radius: 32px;
+  margin-left: 200px;
+  background: rgba(2, 48, 32, 1);
+  margin-top: -50px;
+}
+.contentcon {
+  color: rgba(255, 255, 255, 1);
+  padding-left: 250px;
+  padding-top: 60px;
+  font-size: 36px;
+}
+.contentcon2 {
+  color: rgba(255, 255, 255, 1);
+  padding-left: 290px;
+  font-size: 36px;
+}
+.contentcon3 {
+  color: rgba(188, 228, 215, 1);
+  padding-left: 130px;
+  font-size: 20px;
+}
+.register {
+  width: 192px;
+  height: 56px;
+  gap: 0px;
+  border-radius: 12px;
+  border: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(2, 48, 32, 1);
+  font-family: "Mulish", sans-serif;
+  margin-left: 450px;
+  margin-top: 42px;
+}
+.intrestcon {
+  padding-left: 400px;
+  font-size: 36px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  margin-top: 120px;
+}
+.intrestcon2 {
+  padding-left: 520px;
+  font-size: 18px;
+  color: rgba(121, 121, 121, 1);
+  font-family: "Mulish", sans-serif;
+}
+.steps {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.stepsline {
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.stepscontents {
+  width: 233px;
+  height: 47px;
+  gap: 0px;
+  border-radius: 24px;
+  border: 1px solid rgba(137, 190, 172, 1) !important ;
+  border-style: dashed  !important;
+  margin-right: 25px;
+}
+
+.contentsofsteps {
+  font-family: "Mulish", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+}
+.contentsrow {
+  display: flex;
+  margin-left: -80px;
+}
+.mobileview{
+  display: none;
+}
+@media (max-width: 575px) {
+  .aboutbg{
+    width: 100vw;
+    margin: 0;
+  }
+  .about{
+    border-radius: 0;
+    width: 100%;
+    margin:0 !important ;
+    padding-left: 30px!important;
+  }
+  .rowofabout {
+    padding-left: 5px !important;
+  }
+  .boxofaboutt {
+    display: flex;
+    margin-left: -45px;
+  }
+  .paraabout {
+    font-size: 30px;
+    margin-left: -25px;
+    border-radius: 0;
+  }
+  .contactustoday {
+    width: 100%;
+    border-radius: 0;
+    margin-top: -50px;
+    margin: 0;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .contentcon {
+    padding-left: 15px;
+    padding-top: 60px;
+    font-size: 36px;
+  }
+  .contentcon2 {
+    color: rgba(255, 255, 255, 1);
+    padding-left: 15px;
+    font-size: 34px;
+  }
+  .contentcon3 {
+    color: rgba(188, 228, 215, 1);
+    padding-left: 15px;
+    font-size: 20px;
+  }
+  .register {
+    margin-left: 60px;
+    margin-top: 42px;
+  }
+  .intrestcon {
+    padding-left: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+  }
+  .intrestcon2 {
+    padding-left: 15px;
+  }
+  .steps {
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+
+  .stepsline {
+    display: none;
+  }
+  .stepscon {
+    padding-left: 30px;
+  }
+  .contentsofsteps {
+     padding-bottom: -90px!important;
+  }
+  .laptopview{
+    display: none;
+  }
+  .mobileview{
+    display: contents;
+  }
+}
+@media (max-width: 1440px) {
+  .paraabout {
+    font-size: 30px; 
+    padding-left: 20px; 
+  }
+
+  .contactustoday {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .contentcon, .contentcon2, .contentcon3 {
+    padding-left: 15px; 
+    font-size: 30px; 
+    text-align: center;
+  }
+
+  .register {
+    margin: 20px auto; 
+  }
+
+  .intrestcon {
+    padding-left: 15px; 
+    font-size: 30px; 
+    text-align: center;
+  }
+
+  .intrestcon2 {
+    padding-left: 15px; 
+    text-align: center;
+
+  }
+  .boxofaboutt{
+    margin-left: -80px;
+  }
+  .steps {
+    padding-left: 60px; 
+  }
+  .about{
+    margin-left:30px ;
+  }
+  .contactustoday {
+    width: 100%; 
+    max-width: 990px;
+    border-radius: 32px;
+    margin-top: -50px auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px; 
+  }
+  .contentcon3 {
+    color: rgba(188, 228, 215, 1);
+    padding-left: 15px;
+    font-size: 20px;
+  }
+  .contentsrow {
+    display: flex;
+    margin-left: -80px;
+    margin-right: 10px;
+  }
+
+}

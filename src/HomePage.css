@@ -1,0 +1,105 @@
+.cloudilogo {
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  /* width: 50px; */
+  height: 100px;
+  width: fit-content;
+  margin: 30px;
+}
+.Homepage {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      180deg,
+      rgba(2, 48, 32, 0.7) 0%,
+      rgba(2, 48, 32, 0.7) 100%
+    ),
+    url("../src/Images/img1.jpeg");
+  background-size: cover;
+}
+.heading1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  size: 48px !important;
+  line-height: 65px;
+  width: 744.75px;
+  gap: 2px;
+  text-align: center;
+  color: white;
+  padding-left: 190px;
+  width: 100vw !important;
+  padding-top: 27vh;
+}
+.line {
+  font-weight: 800;
+  font-size: 48px !important;
+}
+.para {
+  width: 744.75px !important;
+  height: 345px !important;
+  top: 180px !important;
+  left: 348px !important;
+  gap: 0px;
+}
+
+.frame1 {
+  padding-left: 520px;
+  padding-top: 50px;
+  width: fit-content;
+}
+.buttonreg {
+  width: 219.43px;
+  height: 64px;
+  gap: 0px;
+  color: white;
+  border-radius: 13.71px;
+  border: rgba(215, 172, 20, 1);
+  background: rgba(215, 172, 20, 1);
+  margin-top: 80px;
+  margin-left: 633px;
+  font-family: "Mulish", sans-serif;
+  font-size: 18.29px;
+  font-weight: 700;
+  line-height: 22.95px;
+}
+@media (max-width: 575px) {
+  .Homepage {
+    width: 100vw !important;
+    background-position: center;
+    max-height: 100vh;
+  }
+
+  .cloudilogo {
+    width: 150px;
+    height: 80px;
+    left: 60px;
+  }
+  .heading1 {
+    padding-left: 10px;
+  }
+  .frame1 {
+    padding-left: 10px!important;
+    padding-top: 40px;
+    width: 80vw;
+  }
+  .buttonreg{
+    margin-left: 10px!important;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+  }
+  .line {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 1440px) {
+
+  .frame1 {
+    padding-left: 520px;
+  
+  }
+  .buttonreg {
+    margin-left: 633px;
+  }
+}

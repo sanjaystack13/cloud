@@ -1,0 +1,163 @@
+.content1 {
+  padding-left: 100px;
+  padding-top: 100px;
+  font-size: 36px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+}
+.content2 {
+  font-size: 18px;
+  color: rgba(77, 77, 77, 1);
+  font-family: "Mulish", sans-serif;
+  padding-top: 20px;
+  background-color: rgba(249, 249, 249, 1);
+  padding: 100px;
+  padding-top: 50px;
+  line-height: 48px;
+}
+.content3 {
+  padding-top: 20px;
+  padding-left: 635px;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Mulish", sans-serif;
+}
+.content4 {
+  font-family: "Mulish", sans-serif;
+  padding-left: 200px;
+  font-size: 36px;
+  color: rgba(0, 103, 67, 1);
+  font-weight: 700;
+}
+.contentback {
+  background: rgba(249, 249, 249, 1) !important;
+}
+.servicesCards {
+  width: 240px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 24px;
+  border: 1px;
+  background-color: rgba(216, 225, 222, 1);
+  border: rgba(216, 225, 222, 1);
+}
+.serviceimages {
+  height: 29px;
+  width: 29px;
+}
+.allcards {
+  padding-top: 80px;
+  padding: 50px;
+  padding-left: 80px;
+}
+.allcardsrow2 {
+  padding-top: 80px;
+  padding: 50px;
+  padding-left: 80px;
+}
+.insidecard {
+  margin: 20px;
+  width: 48px;
+  height: 48px;
+  gap: 0px;
+  border-radius: 10px;
+  background: rgba(255, 249, 251, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servicecontent {
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+  padding-left: 20px;
+}
+@media (max-width: 576px) {
+  .allcards {
+    padding-top: 80px;
+    padding: 50px;
+    padding-left: 70px;
+  }
+  .allcardsrow2 {
+    padding-top: 80px;
+    padding: 50px;
+    padding-left: 70px;
+  }
+  .content1{
+    font-size: 20px!important;
+    margin-left: -85px;
+}
+  .content2 {
+    font-size: 15px!important;
+    padding: 10px;
+    line-height: 1.5;
+  }
+
+  .content3 {
+    font-size: 24px;
+    padding: 20px;
+    padding-left: 30px;
+  }
+
+  .content4 {
+    font-size: 20px;
+    padding: 40px;
+    margin-top: -40px;
+  }
+  .servicesCards {
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  .allcards {
+    margin-top: -60px;
+  }
+  .allcardsrow2 {
+    margin-top: -90px;
+  }
+  .insidecard {
+    width: 40px;
+    height: 40px;
+  }
+
+  .serviceimages {
+    height: 20px;
+    width: 20px;
+  }
+
+  .servicecontent {
+    font-size: 12px;
+  }
+}
+/* @media (max-width: 1360px) {
+  .content1 {
+    padding-left: 20px;
+    padding-top: 60px;
+    font-size: 28px;
+  }
+
+  .content2 {
+    padding: 30px 20px;
+    font-size: 16px;
+  }
+
+  .content3 {
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .content4 {
+    padding-left: 20px;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .servicesCards {
+    width: 80%;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+
+  .allcards,
+  .allcardsrow2 {
+    padding: 40px 20px;
+  }
+} */

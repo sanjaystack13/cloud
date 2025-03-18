@@ -1,0 +1,257 @@
+.signinform {
+  background-color: rgba(216, 225, 222, 1);
+}
+.detailsheading {
+  padding-top: 80px;
+  padding-left: 300px;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+}
+.labelsty {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+.namemob {
+  height: 54px;
+  width: 374px;
+}
+.namemob::placeholder {
+  font-family: "Mulish", sans-serif;
+  color: rgba(166, 166, 166, 1);
+  font-size: 15px;
+}
+.nameemail {
+  height: 54px;
+  margin-left: -200px;
+  width: 374px;
+}
+.nameemail::placeholder {
+  font-family: "Mulish", sans-serif;
+  color: rgba(166, 166, 166, 1);
+  font-size: 15px;
+
+}
+.nameadd {
+  height: 20vh;
+}
+.nameadd::placeholder {
+  color: rgba(166, 166, 166, 1);
+  font-family: "Mulish", sans-serif;
+  font-size: 15px;
+
+}
+.nameinp {
+  height: 54px;
+  border-radius: 12px;
+}
+.nameinp::placeholder {
+  color: rgba(166, 166, 166, 1);
+  font-family: "Mulish", sans-serif;
+}
+.firstrw {
+  padding-left: 300px;
+  padding-top: 30px;
+}
+.secondrw {
+  padding-left: 300px;
+  padding-top: 30px;
+}
+.thirdrw {
+  padding-left: 300px;
+  padding-top: 30px;
+}
+.fourthrw {
+  padding-left: 300px;
+  padding-top: 30px;
+}
+.fifthrw {
+  padding-left: 300px;
+  padding-top: 15px;
+}
+.seventhrw {
+  padding-left: 300px;
+  padding-top: 15px;
+}
+
+.labelemail {
+  margin-left: -200px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+.labeladd {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.privacypolicy {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  padding-left: 450px;
+  padding-top: 40px;
+}
+.submitbut {
+  width: 793px;
+  height: 56px;
+  gap: 0px;
+  border-radius: 12px;
+  background-color: rgba(166, 166, 166, 1);
+  font-family: "Mulish", sans-serif;
+  border: rgba(166, 166, 166, 1);
+  margin-bottom: 50px;
+  color: white;
+}
+.error {
+  color: red;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.error2 {
+  color: red;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  margin-left: -200px;
+  margin-top: 10px;
+}
+@media (max-width: 575px){
+  .detailsheading {
+    padding-top: 80px;
+    padding-left: 20px;
+    font-size: 25px;
+  }
+  .labelsty {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .namemob {
+    height: 54px;
+    width: auto;
+    width: 100%!important;
+  }
+ 
+  .nameemail {
+    height: 54px;
+    margin-left: 0px;
+    width: 100%!important;
+  }
+
+  .nameadd {
+    height: 20vh;
+    width: auto;
+    width: 100%;
+  }
+
+  .nameinp {
+    height: 54px;
+    border-radius: 12px;
+    width: auto;
+    width: 100%;
+
+  }
+  .nameinp::placeholder {
+    color: rgba(166, 166, 166, 1);
+    font-family: "Mulish", sans-serif;
+  }
+  .firstrw {
+    padding-left: 10px!important;
+    padding-top: 30px;
+  }
+  .secondrw {
+    padding-left: 10px!important;
+    padding-top: 30px;
+  }
+  .thirdrw {
+    padding-left: 10px!important;
+    padding-top: 30px;
+  }
+  .fourthrw {
+    padding-left: 10px!important;
+    padding-top: 30px;
+  }
+  .fifthrw {
+    padding-left: 10px!important;
+    padding-top: 15px;
+  }
+  .seventhrw {
+    padding-left: 10px!important;
+    padding-top: 15px;
+  }
+ 
+  .labelemail {
+    margin-left: 0px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .labeladd {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  
+  .privacypolicy {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-top: 40px;
+  }
+  .submitbut {
+    width: 150px;
+    font-family: "Mulish", sans-serif;
+    border: rgba(166, 166, 166, 1);
+    margin-bottom: 50px;
+    margin-left: 0px!important;
+    margin-right: 00px;
+    color: white;
+    align-items: center;
+  }
+  .error {
+    color: red;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .error2 {
+    margin-left: 00px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1440px) {
+  .nameadd{
+    width: 100%;
+  }
+  .nameemail{
+    width: 82%;
+  }
+  .namemob{
+    width: 75%;
+  }
+  .firstrw {
+  padding-left: 300px;
+  }
+  .secondrw {
+    padding-left: 300px;
+  }
+  .thirdrw {
+    padding-left: 300px;
+  }
+  .fourthrw {
+    padding-left: 300px;
+  }
+  .fifthrw {
+    padding-left: 300px;
+    padding-top: 15px;
+  }
+
+  .submitbut {
+    width: 100%; 
+    max-width: none; 
+    align-items: center;
+  }
+}
