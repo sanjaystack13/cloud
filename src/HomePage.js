@@ -16,6 +16,15 @@ const HomePage = () => {
                     </Container>
                     <img className='frame1' src={frame} alt="Frame" />
                     <button className='buttonreg'>Register Now</button>
+                    <button className='buttonreg'>Register Now</button>
+                    <button className='buttonreg'>Register Now</button>
+                    <button className='buttonreg'>Register Now</button>
+                    <button className='buttonreg'>Register Now</button>
+                    <button className='buttonreg'>Register Now</button>
+                    <button className='buttonreg'>Register Now</button>
+                    <button className='buttonreg'>Register Now</button>
+                    <button className='buttonreg'>Register Now</button>
+
                     </Col>
             </Row>
         </Container>
